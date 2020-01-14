@@ -1,6 +1,6 @@
 {
   "name": "@w3cub/locize-node-actions",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "description": "Using API actions from serverside",
   "main": "./index.js",
   "keywords": [
