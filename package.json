@@ -1,21 +1,20 @@
 {
-  "name": "locize-node-lastused",
-  "version": "2.0.0",
-  "description": "Using API lastUsed from serverside",
+  "name": "@w3cub/locize-node-actions",
+  "version": "5.1.0",
+  "description": "Using API actions from serverside",
   "main": "./index.js",
   "keywords": [
-    "i18next",
-    "i18next-plugin",
+    "api-plugin",
     "locize"
   ],
-  "homepage": "https://github.com/locize/locize-node-lastused",
-  "bugs": "https://github.com/locize/locize-node-lastused/issues",
+  "homepage": "https://github.com/icai/locize-node-actions",
+  "bugs": "https://github.com/icai/locize-node-actions/issues",
   "dependencies": {
     "request": "2.88.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/locize/locize-node-lastused.git"
+    "url": "git://github.com/icai/locize-node-actions.git"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
@@ -33,6 +32,6 @@
     "preversion": "npm run build && git push",
     "postversion": "git push && git push --tags"
   },
-  "author": "Jan Mühlemann <jan.muehlemann@gmail.com> (https://github.com/jamuhl)",
+  "author": "Terry Cai <gidcai@gmail.com> (https://github.com/icai)",
   "license": "MIT"
 }
